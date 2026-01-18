@@ -14,22 +14,22 @@ cask "wt" do
   on_macos do
     on_intel do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_darwin_amd64.tar.gz"
-      sha256 "c2127bf3e7db80e8fba4e8598ea9a836eb628ec23b17f81aac939b889c2b02ee"
+      sha256 "44ce2dae01ab4fc0b031af3d9909b871d3b936028b9aa09602c1c53d53c17aab"
     end
     on_arm do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_darwin_arm64.tar.gz"
-      sha256 "92b8907b47d7cce6746d2f78d8b720bb59511e34c737cd10bea1149f45e51fce"
+      sha256 "24a88f1f39305ef4cf9728f39ec30d567c110f63a1d2d05ccb9a703a728ad49e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_linux_amd64.tar.gz"
-      sha256 "745e3771432b31edbe1e02d17cdc2ea51f614a717a68fcf2220879ccb3f797b7"
+      sha256 "051aa0288156e77c5cae56019dbe03aa88d8f115bfb9a8229474716d477faf09"
     end
     on_arm do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_linux_arm64.tar.gz"
-      sha256 "64ba1e39da161c12ebabf98b6655caf3e338f429ba42b5f3fa42a82180a742dc"
+      sha256 "fa547095fa962526af134f501636550b541d79c4593e798a35247cc55796f6cb"
     end
   end
 
