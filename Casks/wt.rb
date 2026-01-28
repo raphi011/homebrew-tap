@@ -3,7 +3,7 @@ cask "wt" do
   name "wt"
   desc "Git worktree manager with GitHub PR integration"
   homepage "https://github.com/raphi011/wt"
-  version "0.9.0"
+  version "0.10.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "wt" do
   on_macos do
     on_intel do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_darwin_amd64.tar.gz"
-      sha256 "aaab836f99cccc43c70260c3e41bc5894979f6bf4c7604276122863a68d10d03"
+      sha256 "abd69da21df98be8707b69c769d57234df4507015a20b4d98149e303ed6e51bc"
     end
     on_arm do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_darwin_arm64.tar.gz"
-      sha256 "17cda3bac6b20b951831d871ccece2bc8c3ad2cf947a9253fd7a0db7210fa994"
+      sha256 "4301506680d9d6902b87f98d3c82916af05d05bb779282a7a80ac3eb9c515a7f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_linux_amd64.tar.gz"
-      sha256 "48be5d6169c69ed02d5bb24ed310f06eaec5576f000aa3f83a8133295b5eccf7"
+      sha256 "a079e32c91112dece91f1d1cad79e47c6c0d5c6ac9793af729726577eba7d051"
     end
     on_arm do
       url "https://github.com/raphi011/wt/releases/download/v#{version}/wt_#{version}_linux_arm64.tar.gz"
-      sha256 "33266aba8773416f4c9be4a914852b56877fb2fd6c227ca71db11d53ed359e3f"
+      sha256 "293e635c337bacd40c23801adbd6d2e89811bc9e31f61d4fa40d8f59343c82d4"
     end
   end
 
