@@ -5,15 +5,15 @@
 class Wt < Formula
   desc "Git worktree manager with GitHub PR integration"
   homepage "https://github.com/raphi011/wt"
-  version "0.29.0"
+  version "0.30.0"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/raphi011/wt/releases/download/v0.29.0/wt_0.29.0_darwin_amd64.tar.gz"
-      sha256 "9c878cbb7b8ea9d94725c82f51166526afb92fc3f4e87fef2646606acb3823c9"
+      url "https://github.com/raphi011/wt/releases/download/v0.30.0/wt_0.30.0_darwin_amd64.tar.gz"
+      sha256 "ca4a39c157c5977a5dd13230bad951d780d47c339dc12d0c8dc9f29c4a83fd60"
 
       define_method(:install) do
         bin.install "wt"
@@ -23,8 +23,8 @@ class Wt < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/raphi011/wt/releases/download/v0.29.0/wt_0.29.0_darwin_arm64.tar.gz"
-      sha256 "af51525a806951eebf9f8c48ac1fc7c5967d2f6729637e0b380b3b8214453933"
+      url "https://github.com/raphi011/wt/releases/download/v0.30.0/wt_0.30.0_darwin_arm64.tar.gz"
+      sha256 "a46b2470061f889c334c0f2304a55a7a98c3c60b413d9d71b740e46896241bdb"
 
       define_method(:install) do
         bin.install "wt"
@@ -37,8 +37,8 @@ class Wt < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/raphi011/wt/releases/download/v0.29.0/wt_0.29.0_linux_amd64.tar.gz"
-      sha256 "404406f04c66f4c3b16fcb11b947167a2d11cdf543a2cd2024702c809a0536a4"
+      url "https://github.com/raphi011/wt/releases/download/v0.30.0/wt_0.30.0_linux_amd64.tar.gz"
+      sha256 "c341e6b8dc87de263197e59b91f8648ba3fdb6ff791a784bfcaff81831afe345"
       define_method(:install) do
         bin.install "wt"
         bash_completion.install "completions/wt.bash" => "wt"
@@ -47,8 +47,8 @@ class Wt < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/raphi011/wt/releases/download/v0.29.0/wt_0.29.0_linux_arm64.tar.gz"
-      sha256 "9c606a76d8e9e06b1cad337a3c75fc666a20ab779935d8bafcc76181b5b1e394"
+      url "https://github.com/raphi011/wt/releases/download/v0.30.0/wt_0.30.0_linux_arm64.tar.gz"
+      sha256 "8de3a7b3cc2e42cf09403d4d124805c6ec8b865aaf4ae33d416245cbdc7dba12"
       define_method(:install) do
         bin.install "wt"
         bash_completion.install "completions/wt.bash" => "wt"
